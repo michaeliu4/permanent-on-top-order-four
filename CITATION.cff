@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this version of the companion software when using its certificates or verification programs."
+title: "Permanent-on-top bounds in order four: exact certificates and verification programs"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Mingchang
+    orcid: "https://orcid.org/0009-0005-3830-8742"
+version: v1
+date-released: 2026-09-24
+repository-code: "https://github.com/michaeliu4/permanent-on-top-order-four"
+url: "https://github.com/michaeliu4/permanent-on-top-order-four/releases/tag/v1"
