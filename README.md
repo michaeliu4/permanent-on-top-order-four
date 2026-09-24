@@ -56,8 +56,13 @@ verifier symmetrizes the stored sum with its image under
 `(r,a,b,c,d) -> (r,c,d,a,b)`, using the multiplier `207360/2 = 103680` for
 each half, as in the paper.
 
-## Version and citation
+## Manuscript and citation
 
-Release **v1** contains the verification material accompanying manuscript V2.
-Use the [tagged release](https://github.com/michaeliu4/permanent-on-top-order-four/releases/tag/v1)
-to obtain that fixed version. Citation metadata is supplied in `CITATION.cff`.
+The [V1 final manuscript](manuscript/permanent-on-top-order-four-V1-final.pdf)
+and its [LaTeX source](manuscript/permanent-on-top-order-four-V1-source.zip)
+are preserved in `manuscript/`.
+
+The exact verification package is preserved as
+[companion release v1](https://github.com/michaeliu4/permanent-on-top-order-four/releases/tag/v1).
+Use that tagged release to reproduce the computations. Citation metadata for
+the software is supplied in `CITATION.cff`.
