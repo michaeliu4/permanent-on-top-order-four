@@ -58,9 +58,9 @@ each half, as in the paper.
 
 ## Manuscript and citation
 
-The [V1 final manuscript](manuscript/permanent-on-top-order-four-V1-final.pdf)
-and its [LaTeX source](manuscript/permanent-on-top-order-four-V1-source.zip)
-are preserved in `manuscript/`.
+The [V1 final manuscript](manuscript/permanent-on-top-order-four-V1-final-reviewed.pdf)
+and its [LaTeX source](manuscript/permanent-on-top-order-four-V1-final-reviewed-source.zip)
+are preserved in `manuscript/`. The earlier V1 snapshot remains archived under tag `manuscript-v1-final`.
 
 The exact verification package is preserved as
 [companion release v1](https://github.com/michaeliu4/permanent-on-top-order-four/releases/tag/v1).
