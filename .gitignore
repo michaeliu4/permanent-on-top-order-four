@@ -3,3 +3,6 @@ run/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Lean build cache
+lean/.lake/
