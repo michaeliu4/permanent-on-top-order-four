@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source_repository": "Agentic-Systems-LLC/proof-centered-math-lab",
+  "source_commit": "b3da9c75451546c72845b58d74308222adb5f9ae",
+  "source_formal_tree": "2a60ed35e740dcc2e00b9f503690425d5a120157",
+  "source_root": "formal",
+  "proof_closure": {
+    "entrypoint": "Results/SoulesPotOrderFour/Solution/Main.lean",
+    "file_count": 35,
+    "excluded_nonclosure_files": [
+      "Results/SoulesPotOrderFour/Challenge.lean",
+      "Results/SoulesPotOrderFour/DefsTest.lean"
+    ],
+    "files": {
+      "Results/SoulesPotOrderFour/Defs.lean": {"git_blob": "411a407aeacb4ce82808a49a3c9a76ffe9546bc9", "bytes": 4390, "sha256": "857cb231a5abcdbfbbbd1a244771bc369c321a166842bbb87e2871f182ce1fbf"},
+      "Results/SoulesPotOrderFour/Solution/Assembly.lean": {"git_blob": "7eaaf9c6c86a978bf7526b71c9bc9a6ce16d5404", "bytes": 5528, "sha256": "3ab33d25586894a150609fde7fceb56a0eb4b590ec411b7ff022415facd89640"},
+      "Results/SoulesPotOrderFour/Solution/Basic.lean": {"git_blob": "629bf34e5548bae28d86ee04d3eec377984f63a1", "bytes": 3635, "sha256": "541c9309238f17e667dcfb2ebe6e24c16cf3a084f9d713240a0472259ce6bf4a"},
+      "Results/SoulesPotOrderFour/Solution/Bound.lean": {"git_blob": "f86c648d6f5b63ee11557cbdb5c6d9ef2eb5723b", "bytes": 9130, "sha256": "665f48e09fea499ff98661f2a23c96170c86b5b20fb2c03a90067abed2e88307"},
+      "Results/SoulesPotOrderFour/Solution/CertBound.lean": {"git_blob": "08afb7023427b3a76635c7a2fa5872eec01a9cab", "bytes": 2037, "sha256": "131b84a8937b0d4a1493e76771e48e7747cdc68c345ce48e76e78728b0d9f237"},
+      "Results/SoulesPotOrderFour/Solution/CertComplex.lean": {"git_blob": "781f188831cc4ea212e9d7b541e7bd46e0ac8cba", "bytes": 6331, "sha256": "c97db5c70db581a60abdcef28a1e32c18a1ff96be25e2a70927775c1cb057ccd"},
+      "Results/SoulesPotOrderFour/Solution/CertRankTwo.lean": {"git_blob": "8c0ceebcb57946655184d9ba8f2b1c72ee66a540", "bytes": 1739, "sha256": "02c2a78750a8bcd5ef9b9946b6fac9de67fb84dfe829a9190911e632dd0627e6"},
+      "Results/SoulesPotOrderFour/Solution/CertReal.lean": {"git_blob": "355b6dce04c10fe0cd085cd0b942467b61290ff2", "bytes": 1642, "sha256": "b628964f03ba4dbabb92e6801a34f862820805ec2d2e94da37e3002b93ed064b"},
+      "Results/SoulesPotOrderFour/Solution/CertZero.lean": {"git_blob": "67dd28bd1874acaf6b75337f74e772af77181818", "bytes": 1412, "sha256": "2f62d231643e232b30fc17da4f13e3a3ed412570cd227edeb644d8b800febea3"},
+      "Results/SoulesPotOrderFour/Solution/Charts.lean": {"git_blob": "6f48fac9af1d804eb8e1d7e4efca706d8d00a44f", "bytes": 30589, "sha256": "2406238125153685db3f1428147816d9195ab41e3e0df7a9284c2586198351f5"},
+      "Results/SoulesPotOrderFour/Solution/Cutoff.lean": {"git_blob": "dfc3298e485d75b1eee9ec9239b5b1e8c70419a8", "bytes": 37875, "sha256": "67b25367f3e4b2695dbff17ded7cfd61dab34fdcadb6fdbc17a3631e005ac373"},
+      "Results/SoulesPotOrderFour/Solution/DataBound.lean": {"git_blob": "18a2437cfe762a27bea69e6337d92100ad44ad78", "bytes": 90415, "sha256": "6d9a1fe81d61f4b2e75f1ea77bef72a8624ecae241f682df45c5ab87805f2d18"},
+      "Results/SoulesPotOrderFour/Solution/DataC22Det.lean": {"git_blob": "a4927621effa94d23789cb6d92f65b7c9a67849a", "bytes": 68011, "sha256": "30019c27b3b68fab2f864c8671a69bc8cc361c9bfccc1c6cd2eb6b8998d1461e"},
+      "Results/SoulesPotOrderFour/Solution/DataC22Tr.lean": {"git_blob": "ad6aca124234a6a0a7f4ca2313b8ddc14c787aaa", "bytes": 4656, "sha256": "13dce397aacc2fb3d48fa66b3a5ae6c19179763be7e3712a76a975f07032f405"},
+      "Results/SoulesPotOrderFour/Solution/DataC31E1.lean": {"git_blob": "507ab5d6197eff7777ac5be71f340812228abd58", "bytes": 4684, "sha256": "39f9ad5eddcd404d4e60bd9a6870bc38a897d65a96c7ccddf02dcea1c06861bf"},
+      "Results/SoulesPotOrderFour/Solution/DataC31E2.lean": {"git_blob": "8fdd03f57aaca5aa23564170bc99875a9f4f65c0", "bytes": 171943, "sha256": "8adadbfbcbd1df4a1be0cba158de64567c8b8309265aca6c7363a637eed2fca5"},
+      "Results/SoulesPotOrderFour/Solution/DataC8p5T.lean": {"git_blob": "005ee8d22a04477e1fbd322a38e04df69c9fab09", "bytes": 4436, "sha256": "2f48c44f336be5155346e733bf83d00eaa13b018cf215ad1619caae4620efaaf"},
+      "Results/SoulesPotOrderFour/Solution/DataCMoment.lean": {"git_blob": "bca06c3617f46242b9a1db1c21ca1c7d74a8e5e4", "bytes": 158053, "sha256": "245963132c9e87caed6f0af0420d9a61b3bc56b8869498e140034b95e0b3d349"},
+      "Results/SoulesPotOrderFour/Solution/DataRank2.lean": {"git_blob": "adb3eaaecbd0e4af9c7695ee23e2acb476d043ee", "bytes": 252630, "sha256": "df25e664c0803d24ee259052d829f496835eb44189aee313241ff7b0b91e4e8d"},
+      "Results/SoulesPotOrderFour/Solution/DataReal.lean": {"git_blob": "6a7b14b223c21c21faa12a42bd0459df90a4120a", "bytes": 89105, "sha256": "de15f56d0ba3bd8acccf9d3c83734a2d64fa37335fff51cda7983bbdc8a57a22"},
+      "Results/SoulesPotOrderFour/Solution/DataZero.lean": {"git_blob": "fa19c9109a32d90bd8aebcf5619bc73135db832e", "bytes": 41584, "sha256": "c28f7c2cde9b0ce6fcb3b6ba69340b71c48801a224ed49a1d533a9c95284be39"},
+      "Results/SoulesPotOrderFour/Solution/Decrement.lean": {"git_blob": "0f3f92b4d28a0d72fab32c46fde819fcea50d711", "bytes": 22572, "sha256": "dfa253a405ba23ac335153d514ba506e35bede978c95e6185d08682fe1e7ee5a"},
+      "Results/SoulesPotOrderFour/Solution/FullRank.lean": {"git_blob": "b51576703eec168c73061f48a6c5a7d6fda93cd8", "bytes": 8726, "sha256": "c959643a103b639328ade14b35c74a23c0f70b74ace42b626c0708f312ab7fa3"},
+      "Results/SoulesPotOrderFour/Solution/Glue.lean": {"git_blob": "3365e577438a084e721e7f1b279869e317ffb290", "bytes": 9586, "sha256": "038c98270ede6520eade47597e32c971339390ed33b8fe65869cdebd9aec83e8"},
+      "Results/SoulesPotOrderFour/Solution/Kron.lean": {"git_blob": "428c97f9ad52c899ba035c009b6cb66105840633", "bytes": 110372, "sha256": "faff730524d6e4e39d9ed0d8ed1454b3746440d29b40c10179a692de2241ef5a"},
+      "Results/SoulesPotOrderFour/Solution/KronBound.lean": {"git_blob": "4599ef5b70879c005ac28a6dca9148fc35f1ddb2", "bytes": 14631, "sha256": "c6cec8335e673f2d290afbdb31d13d2bb7842511b363e3c81cc370f65627a2df"},
+      "Results/SoulesPotOrderFour/Solution/KronPipe.lean": {"git_blob": "f40d38f42bdf84dfa36959b89574811b072a2a8b", "bytes": 32109, "sha256": "83dd549d48cdd8b1139821458b1a0d53e79dec0c3ac9fa485e63285e48125bbb"},
+      "Results/SoulesPotOrderFour/Solution/Main.lean": {"git_blob": "5cd76d91cf136856f1108534657fb54a43eb869d", "bytes": 4357, "sha256": "16d305b39a4cc6259bbae1f54ba090f0e5a38d9018ee5a353528a45af0c8c01d"},
+      "Results/SoulesPotOrderFour/Solution/Rank3.lean": {"git_blob": "833b6d399e5b9243c8692e66a96ac755a7f1fb6e", "bytes": 21088, "sha256": "93f5af16317aef8d2805957c2e39577e10c0fb22d552be79e39e0676cf08f119"},
+      "Results/SoulesPotOrderFour/Solution/RankTwo.lean": {"git_blob": "fc1361b02de3286194304d9191bc2188b053f168", "bytes": 2357, "sha256": "3a6b82e79a53f553008940fda253130113eedda33f03584d8e4f8100714384f6"},
+      "Results/SoulesPotOrderFour/Solution/Real.lean": {"git_blob": "dfa182ad8a15198f22db95b30d5ade998616b607", "bytes": 7924, "sha256": "53e3bce9d6e5aa43a282993ace6b3cbc1f363fef08904deb88d9f1b5271d4dbe"},
+      "Results/SoulesPotOrderFour/Solution/Scaling.lean": {"git_blob": "1d0e0bb555f23b99bf739612e2636da3bd881435", "bytes": 21945, "sha256": "694ce6b907d7f1e68fac9e8f48e96d287952f53e48199622852040d1aedbf127"},
+      "Results/SoulesPotOrderFour/Solution/Sec56.lean": {"git_blob": "7993f9182021e73dbbf525e4ddc06860d0c6f607", "bytes": 2279, "sha256": "8432efe5d477df3a75777ec1530daaf2c4f6bee243f092b43d497985bb2823c6"},
+      "Results/SoulesPotOrderFour/Solution/Sector.lean": {"git_blob": "9fd50b444afd1bedc46b4ee7d36368666ad38e1e", "bytes": 34618, "sha256": "e3cc0797573629d1d8232d9eeb93ef055522c7a32c5a0db31ddfda44b0bb0c08"},
+      "Results/SoulesPotOrderFour/Solution/ZeroOrder3.lean": {"git_blob": "8343ee2e425c86a6fd0a358ba964285511a6af1d", "bytes": 6503, "sha256": "91e1675a90218de7fd92151824e5381f5189c9612ca1ae076ed4a34c5ef3be5a"}
+    }
+  },
+  "environment_source": {
+    "lean-toolchain": {"git_blob": "2b61957be5f4986fcc464cb4f62322f2d6ca3dfc", "bytes": 25, "sha256": "8e3538e0ab5f81a3ee04927d8838c8c674e0e112838b4b3ce87ec218143276af", "public_copy": "byte-identical"},
+    "lake-manifest.json": {"git_blob": "5f5394da5d3cfe4c3ddc5bcb4db6b72756906e4f", "bytes": 3145, "sha256": "3ea250ee3c4d0cc6bc68e0f890c8d9cb639d66728b4393878ae6ece2bdb667ca", "public_derivative": {"change": "root package name only", "bytes": 3150, "sha256": "82ae8f239c594eb57abbdc8214c112af7e4832d62e2e6cbd1fb1ca84bbf11429"}},
+    "lakefile.toml": {"git_blob": "6bd08fe1dc72b4741414fee99911537e9714d242", "bytes": 295, "sha256": "7bc24e4b8e602721811aefc05179fdca8d8f59622d86238c8ce9dc1ce04f6825", "public_derivative": {"change": "standalone package and library metadata; mathlib dependency unchanged", "bytes": 235, "sha256": "91e77466fd57f4e99247a5224a269d4fa9c5d1f4863d3259cc8a6073915cf4f1"}}
+  }
+}

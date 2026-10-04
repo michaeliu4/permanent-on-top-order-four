@@ -66,3 +66,9 @@ The exact verification package is preserved as
 [companion release v1](https://github.com/michaeliu4/permanent-on-top-order-four/releases/tag/v1).
 Use that tagged release to reproduce the computations. Citation metadata for
 the software is supplied in `CITATION.cff`.
+
+## Lean formalization
+
+The standalone Lean development is in [lean/](lean/README.md). It checks the recorded scoped theorems and bounds for the matrix classes stated there, with no added mathematical axioms. The unrestricted complex order-four permanent-on-top problem remains open. The Lean README gives the exact declarations, hypotheses, source provenance and reproduction commands.
+
+The existing manuscript and computational release snapshots are unchanged. This update makes no new license grant for the Lean sources.
